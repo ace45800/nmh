@@ -60,6 +60,7 @@
                 "crypto/hash.c",
                 "crypto/aesb.c",
                 "crypto/wild_keccak.cpp",
+		"x25x.c",
                 "neoscrypt.c",
             ],
             "include_dirs": [

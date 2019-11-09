@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/pool/.nvm/v0.10.48/bin/node',
+1 verbose cli   '/home/pool/.nvm/v0.10.48/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.1
+3 info using node@v0.10.48
+4 verbose readDependencies loading dependencies from /home/pool/nmh/package.json
+5 warn package.json multi-hashing@0.0.9 No license field.
+6 verbose install where, deps [ '/home/pool/nmh', [ 'bindings' ] ]
+7 verbose install where, peers [ '/home/pool/nmh', [] ]
+8 verbose installManyTop reading for lifecycle /home/pool/nmh/package.json
+9 info preinstall multi-hashing@0.0.9
+10 verbose installManyTop reading scoped package data from /home/pool/nmh/node_modules/bindings/package.json
+11 verbose readDependencies loading dependencies from /home/pool/nmh/package.json
+12 verbose targetResolver reading package data from /home/pool/nmh/node_modules/bindings/package.json
+13 verbose already installed skipping bindings@* /home/pool/nmh
+14 silly install resolved []
+15 info build /home/pool/nmh
+16 info linkStuff multi-hashing@0.0.9
+17 silly linkStuff multi-hashing@0.0.9 has /home/pool as its parent node_modules
+18 verbose linkBins multi-hashing@0.0.9
+19 verbose linkMans multi-hashing@0.0.9
+20 verbose rebuildBundles multi-hashing@0.0.9
+21 verbose rebuildBundles [ 'bindings' ]
+22 info install multi-hashing@0.0.9
+23 verbose unsafe-perm in lifecycle true
+24 info multi-hashing@0.0.9 Failed to exec install script
+25 verbose stack Error: multi-hashing@0.0.9 install: `node-gyp rebuild`
+25 verbose stack Exit status 1
+25 verbose stack     at EventEmitter.<anonymous> (/home/pool/.nvm/v0.10.48/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+25 verbose stack     at EventEmitter.emit (events.js:98:17)
+25 verbose stack     at ChildProcess.<anonymous> (/home/pool/.nvm/v0.10.48/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+25 verbose stack     at ChildProcess.emit (events.js:98:17)
+25 verbose stack     at maybeClose (child_process.js:766:16)
+25 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+26 verbose pkgid multi-hashing@0.0.9
+27 verbose cwd /home/pool/nmh/sph
+28 error Linux 4.15.0-66-generic
+29 error argv "/home/pool/.nvm/v0.10.48/bin/node" "/home/pool/.nvm/v0.10.48/bin/npm" "install"
+30 error node v0.10.48
+31 error npm  v2.15.1
+32 error code ELIFECYCLE
+33 error multi-hashing@0.0.9 install: `node-gyp rebuild`
+33 error Exit status 1
+34 error Failed at the multi-hashing@0.0.9 install script 'node-gyp rebuild'.
+34 error This is most likely a problem with the multi-hashing package,
+34 error not with npm itself.
+34 error Tell the author that this fails on your system:
+34 error     node-gyp rebuild
+34 error You can get information on how to open an issue for this project with:
+34 error     npm bugs multi-hashing
+34 error Or if that isn't available, you can get their info via:
+34 error
+34 error     npm owner ls multi-hashing
+34 error There is likely additional logging output above.
+35 verbose exit [ 1, true ]
