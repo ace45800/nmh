@@ -10,10 +10,10 @@ Release/obj.target/multihashing/multihashing.o: ../multihashing.cc \
  /home/pool/.node-gyp/0.10.48/include/node/node_object_wrap.h \
  /home/pool/.node-gyp/0.10.48/include/node/node.h \
  /home/pool/.node-gyp/0.10.48/include/node/node_buffer.h \
- /home/pool/.node-gyp/0.10.48/include/node/v8.h ../x25x.h ../bcrypt.h \
- ../blake.h ../c11.h ../cryptonight.h ../cryptonight_fast.h ../fresh.h \
- ../fugue.h ../groestl.h ../hefty1.h ../keccak.h ../lbry.h ../nist5.h \
- ../quark.h ../qubit.h ../scryptjane.h ../scryptn.h ../sha1.h \
+ /home/pool/.node-gyp/0.10.48/include/node/v8.h ../x25x.h ../ethash.h \
+ ../bcrypt.h ../blake.h ../c11.h ../cryptonight.h ../cryptonight_fast.h \
+ ../fresh.h ../fugue.h ../groestl.h ../hefty1.h ../keccak.h ../lbry.h \
+ ../nist5.h ../quark.h ../qubit.h ../scryptjane.h ../scryptn.h ../sha1.h \
  ../sha256d.h ../shavite3.h ../skein.h ../x11.h ../x13.h ../x15.h \
  ../x16r.h ../x16rv2.h ../neoscrypt.h ../boolberry.h
 ../multihashing.cc:
@@ -29,6 +29,7 @@ Release/obj.target/multihashing/multihashing.o: ../multihashing.cc \
 /home/pool/.node-gyp/0.10.48/include/node/node_buffer.h:
 /home/pool/.node-gyp/0.10.48/include/node/v8.h:
 ../x25x.h:
+../ethash.h:
 ../bcrypt.h:
 ../blake.h:
 ../c11.h:

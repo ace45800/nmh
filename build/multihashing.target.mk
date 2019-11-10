@@ -134,6 +134,7 @@ OBJS := \
 	$(obj).target/$(TARGET)/crypto/aesb.o \
 	$(obj).target/$(TARGET)/crypto/wild_keccak.o \
 	$(obj).target/$(TARGET)/x25x.o \
+	$(obj).target/$(TARGET)/ethash.o \
 	$(obj).target/$(TARGET)/neoscrypt.o
 
 # Add to the list of files we specially track dependencies for.

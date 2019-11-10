@@ -5,6 +5,7 @@
 
 extern "C" {
     #include "x25x.h"
+    #include "ethash.h"
     #include "bcrypt.h"
     #include "blake.h"
     #include "c11.h"
@@ -126,6 +127,7 @@ using namespace v8;
  DECLARE_CALLBACK(shavite3, shavite3_hash, 32);
  DECLARE_CALLBACK(skein, skein_hash, 32);
  DECLARE_CALLBACK(x11, x11_hash, 32);
+ DECLARE_CALLBACK(ethash, ethash_hash, 32);
 DECLARE_CALLBACK(x25x, x25x_hash, 32);
  DECLARE_CALLBACK(x13, x13_hash, 32);
  DECLARE_CALLBACK(x15, x15_hash, 32);
@@ -379,6 +381,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "shavite3", shavite3);
     NODE_SET_METHOD(exports, "skein", skein);
     NODE_SET_METHOD(exports, "x11", x11);
+    NODE_SET_METHOD(exports, "ethash", ethash);
     NODE_SET_METHOD(exports, "x25x", x25x);
     NODE_SET_METHOD(exports, "x13", x13);
     NODE_SET_METHOD(exports, "x15", x15);

@@ -308,7 +308,7 @@ ifeq ($(strip $(foreach prefix,$(NO_LOAD),\
 endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
-cmd_regen_makefile = cd $(srcdir); /home/pool/.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I/home/pool/nmh/build/config.gypi -I/home/pool/.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp/addon.gypi -I/home/pool/.node-gyp/0.10.48/include/node/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/home/pool/.node-gyp/0.10.48" "-Dnode_gyp_dir=/home/pool/.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp" "-Dnode_lib_file=node.lib" "-Dmodule_root_dir=/home/pool/nmh" binding.gyp
+cmd_regen_makefile = cd $(srcdir); /home/pool/.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I/home/pool/vnmh/build/config.gypi -I/home/pool/.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp/addon.gypi -I/home/pool/.node-gyp/0.10.48/include/node/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/home/pool/.node-gyp/0.10.48" "-Dnode_gyp_dir=/home/pool/.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp" "-Dnode_lib_file=node.lib" "-Dmodule_root_dir=/home/pool/vnmh" binding.gyp
 Makefile: $(srcdir)/../.nvm/v0.10.48/lib/node_modules/npm/node_modules/node-gyp/addon.gypi $(srcdir)/../.node-gyp/0.10.48/include/node/common.gypi $(srcdir)/build/config.gypi $(srcdir)/binding.gyp
 	$(call do_cmd,regen_makefile)
 
